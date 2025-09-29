@@ -42,6 +42,7 @@ Hasilnya mengejutkan:
 - Rata-rata win rate 10 hero terpopuler: 0.52
 - Rata-rata win rate 10 hero paling jarang di-pick: 0.43
 ![Popular Heroes vs Unpopular Heroes Win Rate](images/compare_BP_MP_role_average_WR_chart.png)
+
 Hal ini menunjukkan adanya perbedaan performa yang signifikan. Meskipun hero-hero terpopuler cenderung memiliki win rate yang lebih tinggi, saya menemukan "mutiara tersembunyi" di antara hero yang jarang dipilih.
 
 5. Menemukan Hero "Underestimated"
@@ -50,6 +51,7 @@ Inilah bagian yang paling menarik! Saya memfilter hero dengan jumlah pick di baw
 
 Hasilnya, saya menemukan Esmeralda dan Khaleed. Esmeralda, meskipun hanya di-pick 16 kali, memiliki win rate luar biasa yaitu 69%! Sementara Khaleed mencapai 56% dari 18 kali pick.
 ![Underestimated Heroes](images/BP_kecil_WR_besar_script.png)
+
 Hipotesis mengapa hero ini jarang dipilih meskipun efektif:
 - High Skill Ceiling: Mereka mungkin memerlukan mekanik yang kompleks untuk dimainkan dengan optimal.
 - Situational Picks: Hero-hero ini sangat kuat hanya dalam kondisi atau komposisi tim tertentu.

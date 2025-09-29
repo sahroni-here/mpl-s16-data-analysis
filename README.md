@@ -1,8 +1,8 @@
 # Analisis Data MPL ID S16: Mengungkap Rahasia Meta Game dengan Data Science
 
-✨ Mengungkap tren hero dengan win rate tertinggi di MPL ID S16
-🤖 Otomasi pipeline data (pembersihan, analisis) menggunakan AI kustom
-📊 Visualisasi data interaktif untuk wawasan strategis
+* ✨ Mengungkap tren hero dengan win rate tertinggi di MPL ID S16
+* 🤖 Otomasi pipeline data (pembersihan, analisis) menggunakan AI kustom
+* 📊 Visualisasi data interaktif untuk wawasan strategis
 
 ## Pendahuluan
 Di dunia esports Mobile Legends, setiap keputusan draft pick bisa menjadi penentu kemenangan. Proyek ini hadir untuk membongkar meta game MPL ID S16, tidak hanya berdasarkan intuisi, tetapi dengan wawasan yang didapat dari data. Saya menganalisis data dari 30 hero yang paling sering dimainkan hingga 29 September 2025. Tujuannya sederhana: mengidentifikasi hero-hero kunci dan tren strategi yang paling efektif, serta menemukan "senjata rahasia" yang terabaikan. Proses ini saya lakukan dengan sangat efisien, didukung oleh custom Gems yang secara otomatis membersihkan, menganalisis, dan memvisualisasikan data, mengubah tumpukan angka menjadi insight strategis.

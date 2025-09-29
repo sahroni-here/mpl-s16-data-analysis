@@ -12,8 +12,7 @@ Proses analisis saya dimulai dengan pembersihan data. Saya menggunakan script se
 
 ## Analisis & Temuan Utama
 1. Dominasi Hero di Fase Draft
-![10 Hero dengan pick tertinggi]
-(MP chart.png)
+![Most Pick Heroes](images/MP chart.png)
 Siapa yang paling sering muncul di Land of Dawn?
 Saya menganalisis hero dengan jumlah pick tertinggi di sepanjang turnamen. Dari visualisasi di bawah, terlihat hero seperti Yi Sun-Shin, Zhuxin, dan Harith menjadi langganan di tim-tim profesional. Popularitas mereka menunjukkan fleksibilitas dan pengaruh besar dalam berbagai komposisi tim.
 

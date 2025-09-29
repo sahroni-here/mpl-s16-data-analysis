@@ -39,8 +39,8 @@ Saat saya membandingkan jumlah pick dengan win rate menggunakan scatter plot, sa
 Untuk mendapatkan gambaran yang lebih dalam, saya membandingkan rata-rata win rate dari 10 hero paling sering di-pick dan 10 hero paling jarang di-pick.
 
 Hasilnya mengejutkan:
-- Rata-rata win rate 10 hero terpopuler: 0.52
-- Rata-rata win rate 10 hero paling jarang di-pick: 0.43
+* Rata-rata win rate 10 hero terpopuler: 0.52
+* Rata-rata win rate 10 hero paling jarang di-pick: 0.43
 ![Popular Heroes vs Unpopular Heroes Win Rate](images/compare_BP_MP_role_average_WR_chart.png)
 
 Hal ini menunjukkan adanya perbedaan performa yang signifikan. Meskipun hero-hero terpopuler cenderung memiliki win rate yang lebih tinggi, saya menemukan "mutiara tersembunyi" di antara hero yang jarang dipilih.
@@ -53,9 +53,9 @@ Hasilnya, saya menemukan Esmeralda dan Khaleed. Esmeralda, meskipun hanya di-pic
 ![Underestimated Heroes](images/BP_kecil_WR_besar_script.png)
 
 Hipotesis mengapa hero ini jarang dipilih meskipun efektif:
-- High Skill Ceiling: Mereka mungkin memerlukan mekanik yang kompleks untuk dimainkan dengan optimal.
-- Situational Picks: Hero-hero ini sangat kuat hanya dalam kondisi atau komposisi tim tertentu.
-- Unpopular in Meta: Mereka tidak sejalan dengan tren strategi tim yang sedang populer.
+* High Skill Ceiling: Mereka mungkin memerlukan mekanik yang kompleks untuk dimainkan dengan optimal.
+* Situational Picks: Hero-hero ini sangat kuat hanya dalam kondisi atau komposisi tim tertentu.
+* Unpopular in Meta: Mereka tidak sejalan dengan tren strategi tim yang sedang populer.
 
 Ini adalah bukti nyata bahwa data bisa mengungkap potensi hero yang terabaikan, yang mungkin bisa menjadi senjata rahasia di tangan tim yang tepat.
 
@@ -70,3 +70,44 @@ Rekomendasi Strategis:
 Untuk tim dan analis esports, alih-alih hanya mengikuti hero meta, pertimbangkan untuk melatih dan menguji hero seperti Esmeralda dan Khaleed. Menguasai hero-hero ini bisa memberikan dimensi baru pada strategi tim dan mengejutkan lawan. Ini adalah contoh sempurna bagaimana data science mengubah cara kita melihat game, dari sekadar hiburan menjadi arena strategis yang diisi dengan insight-insight berharga.
 
 Lihat proyek lengkap di Notion: [Analisis Data MPL ID S16: Mengungkap Meta Game dengan Data Science & AI Kustom](https://www.notion.so/Analisis-Data-MPL-ID-S16-Mengungkap-Meta-Game-dengan-Data-Science-AI-Kustom-27d9a18ad06880a2ab75ca71595ddfc8?source=copy_link)
+
+## Instalasi dan Penggunaan
+Untuk menjalankan analisis ini di lingkungan lokal Anda, ikuti langkah-langkah berikut:
+
+* Langkah 1: Clone Repositori
+
+Buka Terminal atau Command Prompt Anda, lalu ketik perintah berikut:
+
+git clone https://github.com/sahroni-here/mpl-s16-data-analysis.git
+
+* Langkah 2: Masuk ke Direktori Proyek
+
+Pindah ke direktori proyek yang baru saja di-clone:
+
+cd mpl-s16-data-analysis
+
+* Langkah 3: Instal Dependensi
+
+Pastikan Anda memiliki Python dan pip terinstal. Buat file bernama requirements.txt di folder utama repositori Anda. File ini berisi semua library yang dibutuhkan (contoh: pandas, matplotlib, seaborn). Salin daftar library berikut ke dalam file itu:
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+Kemudian, instal semua dependensi dengan perintah:
+
+pip install -r requirements.txt
+
+* Langkah 4: Jalankan Analisis
+
+Buka file notebook Jupyter notebooks/mpl_hero_analysis.ipynb dan jalankan setiap sel untuk melihat seluruh proses analisis data dari awal hingga akhir.
+
+## Kontak
+Proyek ini dikerjakan oleh Sahroni.
+
+* LinkedIn: https://www.linkedin.com/in/sahroni-here
+* GitHub: https://github.com/sahroni-here

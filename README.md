@@ -11,26 +11,28 @@ Di dunia esports Mobile Legends, setiap keputusan draft pick bisa menjadi penent
 Proses analisis saya dimulai dengan pembersihan data. Saya menggunakan script sederhana yang terintegrasi dalam pipeline analisis untuk memastikan kolom 'Win Rate' sudah dalam format numerik. Ini adalah langkah krusial yang sering kali memakan waktu, namun berkat Gems saya, proses ini berjalan otomatis dan memastikan data siap untuk dianalisis.
 
 ## Analisis & Temuan Utama
-* Dominasi Hero di Fase Draft
+1. Dominasi Hero di Fase Draft
+![10 Hero dengan pick tertinggi]
+(MP chart.png)
 Siapa yang paling sering muncul di Land of Dawn?
 Saya menganalisis hero dengan jumlah pick tertinggi di sepanjang turnamen. Dari visualisasi di bawah, terlihat hero seperti Yi Sun-Shin, Zhuxin, dan Harith menjadi langganan di tim-tim profesional. Popularitas mereka menunjukkan fleksibilitas dan pengaruh besar dalam berbagai komposisi tim.
 
-* Rata-rata Win Rate per Role
+2. Rata-rata Win Rate per Role
 Apakah ada role yang lebih superior dari yang lain?
 Analisis saya menunjukkan bahwa di MPL ID S16, role Support dan Fighter memiliki rata-rata win rate tertinggi. Ini mengindikasikan bahwa hero-hero di kedua role ini memiliki dampak signifikan pada hasil pertandingan, baik melalui utility yang krusial maupun damage output yang konsisten.
 
-* Hubungan antara Popularitas dan Kemenangan
+3. Hubungan antara Popularitas dan Kemenangan
 Apakah hero terpopuler selalu menjadi yang terbaik?
 Saat saya membandingkan jumlah pick dengan win rate menggunakan scatter plot, saya menemukan korelasi positif yang lemah (0.31). Ini adalah temuan penting! Garis regresi menunjukkan tren kenaikan yang sangat landai, membuktikan bahwa popularitas hero tidak selalu menjamin kemenangan. Tim profesional mungkin memilih hero populer karena fleksibilitas atau kenyamanan, bukan semata-mata karena win rate yang superior.
 
-* Kontras Antara Hero Populer dan Hero Jarang Dipilih
+4. Kontras Antara Hero Populer dan Hero Jarang Dipilih
 Untuk mendapatkan gambaran yang lebih dalam, saya membandingkan rata-rata win rate dari 10 hero paling sering di-pick dan 10 hero paling jarang di-pick.
 Hasilnya mengejutkan:
 - Rata-rata win rate 10 hero terpopuler: 0.52
 - Rata-rata win rate 10 hero paling jarang di-pick: 0.43
 Hal ini menunjukkan adanya perbedaan performa yang signifikan. Meskipun hero-hero terpopuler cenderung memiliki win rate yang lebih tinggi, saya menemukan "mutiara tersembunyi" di antara hero yang jarang dipilih.
 
-* Menemukan Hero "Underestimated"
+5. Menemukan Hero "Underestimated"
 Inilah bagian yang paling menarik! Saya memfilter hero dengan jumlah pick di bawah 20 tetapi memiliki win rate di atas 55%.
 Hasilnya, saya menemukan Esmeralda dan Khaleed. Esmeralda, meskipun hanya di-pick 16 kali, memiliki win rate luar biasa yaitu 69%! Sementara Khaleed mencapai 56% dari 18 kali pick.
 Hipotesis mengapa hero ini jarang dipilih meskipun efektif:

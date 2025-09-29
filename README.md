@@ -68,3 +68,5 @@ Dari analisis yang komprehensif ini, saya menarik beberapa kesimpulan kunci:
 Rekomendasi Strategis:
 
 Untuk tim dan analis esports, alih-alih hanya mengikuti hero meta, pertimbangkan untuk melatih dan menguji hero seperti Esmeralda dan Khaleed. Menguasai hero-hero ini bisa memberikan dimensi baru pada strategi tim dan mengejutkan lawan. Ini adalah contoh sempurna bagaimana data science mengubah cara kita melihat game, dari sekadar hiburan menjadi arena strategis yang diisi dengan insight-insight berharga.
+
+Lihat proyek lengkap di Notion: [Analisis Data MPL ID S16: Mengungkap Meta Game dengan Data Science & AI Kustom](https://www.notion.so/Analisis-Data-MPL-ID-S16-Mengungkap-Meta-Game-dengan-Data-Science-AI-Kustom-27d9a18ad06880a2ab75ca71595ddfc8?source=copy_link)
